@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* central section  */
+.central{
+    background-color: brown;
+    
+}
+.central ul label{
+    color: white;
+    font-size: 2.5vmax;
+    margin-right: 20vmax;
+}
+.central ul label b{
+    color: yellow;
+}
+.central ul li{
+    display: inline-block;
+}
+.central ul li a{
+    color: aqua;
+    float: right;
+    margin: 2vmax;
+    margin-bottom: 0.7vmax;
+    text-decoration: none;
+}
+.central ul li a:hover{
+    color: blue;
+    font-size: 1.7vmax;
+}
+/* mid section  */
+.mid h1{
+    font-size: 6vmax;
+    color: chartreuse;
+    text-align: right;
+    text-shadow: 1.5px 1.5px black;
+}
+.mid p{
+    font-size: 2.5vmax;
+    text-align: right;
+    text-shadow: 1.5px 1.5px black;
+    color: aquamarine;
+}
+.mid{
+    background-image: url(../img/pets\ pix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vmax;
+}
+.mid button a{
+    font-size: 1.7vmax;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    text-decoration: blue;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: none;
+}
+/* bottom section  */
+.bottom label{
+    color: red;
+}
+.bottom h4 {
+    float: right;
+    color: red;
+}
+.bottom h4 a:hover{
+    color: black;
+    font-size: 1vmax;
+}
+.bottom{
+    background-color: brown;
+}
